@@ -1,0 +1,24 @@
+.navHeader{
+    display: flex;
+    gap: 65%;
+    background-color: rgb(16, 15, 15);
+    padding: 15px 0px ;
+  align-items: center;  
+  }
+  h1{
+    margin: 0%;
+    margin-left: 80px;
+    color: lightblue;
+  }
+  .navLinks ul{
+    display: flex;
+    gap: 15px;
+    color: white;
+  }
+  .navLinks a {
+    color: lightblue;
+    font-size: 1.2rem;
+  }
+  li{
+    list-style: none;
+  }

@@ -1,0 +1,104 @@
+/* PatientLogin.module.css */
+
+body {
+    background-color:white ;/* Set your desired background color for the entire page */
+    margin: 0; /* Reset default body margin */
+    font-family: Arial, sans-serif; /* Example: Change font family for the entire page */
+  }
+  
+  .container {
+    height: 100vh; /* Ensures the background covers the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+.logoImg {
+  width: 80px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+  
+  .box {
+    margin-top: 25px;   
+    width: 405px;
+   height: 310px;
+   border-radius: 25px;
+   padding: 20px;
+   margin-bottom: 20px;
+  }
+  
+  .form {
+    background-image: linear-gradient(to right, rgb(216, 228, 233), rgb(100, 175, 237));
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    flex-direction: column;
+    margin-left: 100px;
+  
+  }
+  
+  h1 {
+    color: rgb(10, 0, 0);
+    font-family: Verdana;
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .error {
+    color: #dc3545; 
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    border: 0;
+    background: none;
+    display: block;
+    border: 2px solid #0077b6;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 15px auto;
+    outline: none;
+    color: black;
+    transition: width 0.25s;
+    width: 200px;
+    font-size: 13px;
+  }
+  
+  .input:focus {
+    width: 240px;
+  }
+  
+  .log {
+    color: black;
+    border-color: #07b891;
+    width: 100px;
+    background-color: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  .log:hover {
+    background-color: #02c39a;
+  }
+  
+  .anchor {
+    color: #2f42ec;
+    font-family: system-ui;
+    margin-left: 10px;
+  }
+  
+  .anchor:hover {
+    color: #2f42ec;
+  }
+  

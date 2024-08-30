@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  gap: 15px;
+  padding-left: 10px;
+  background-color: antiquewhite;
+  padding: 10px;
+  font-weight: bold;
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+  gap: 50px;
+}
+.navItemRight{
+  background-color: rgb(51, 38, 21);
+  border: 1px solid black;
+  margin-left: 980px;
+}
+p{
+  font-size: 0.8rem;
+  margin: 0%;
+}
+h1{
+  margin-left: 50px;
+}

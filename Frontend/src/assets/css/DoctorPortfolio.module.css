@@ -1,0 +1,39 @@
+
+.modal-header {
+    background-color: grey; 
+    color: #fff;
+    border-bottom: none; 
+  }
+  
+
+  .modal-title {
+    color: white;
+  }
+
+  .modal-body {
+    padding: 20px;
+  }
+
+  .modal-body p {
+    margin-bottom: 10px;
+  }
+  
+  .modal-body .patient-info {
+    color: red; 
+  }
+  
+
+  .modal-footer {
+    border-top: none; 
+  }
+  
+  .modal-footer .btn-secondary {
+    background-color: red; 
+    color: #fff; 
+  }
+  
+ 
+  .modal-footer .btn-secondary:hover {
+    background-color: darkred; 
+  }
+  

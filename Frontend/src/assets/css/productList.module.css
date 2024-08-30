@@ -1,0 +1,12 @@
+.productList{
+    text-align: center;
+}
+.productLink{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+}
